@@ -269,7 +269,7 @@ class GPTrainer(RegressionTrainer):
             max_num_tar=self.args.max_num_tar,
             min_num_tar=self.args.min_num_tar,
             device=self.device)
-        self.train_step(epoch, batch, ravg)
+        self.train_step(epoch, self.train_steps, batch, ravg)
 
     def get_eval_logfile(self):
         if not self.args.eval_logfile:
