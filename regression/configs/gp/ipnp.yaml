@@ -1,0 +1,15 @@
+dim_x: 1
+dim_y: 1
+data_emb_dim: 64
+data_emb_depth: 2
+latent_dim_mult: 1
+H_A_dim: 32
+use_H_A: False
+num_induce: 8
+H_D_init: 'xavier'
+num_heads: 8
+num_spin_blocks: 1
+dec_dim: 128
+bound_std: False
+use_latent_path: False
+use_spin_latent: False

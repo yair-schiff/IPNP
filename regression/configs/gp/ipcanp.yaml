@@ -1,0 +1,16 @@
+dim_x: 1
+dim_y: 1
+dim_hid: 128
+enc_v_depth: 4
+enc_qk_depth: 2
+enc_pre_depth: 4
+enc_post_depth: 2
+dec_depth: 3
+latent_dim_mult: 1
+H_A_dim: -1
+use_H_A: False
+use_ABLA_induce: False
+num_induce: -1
+H_D_init: 'xavier'
+num_heads: 8
+num_spin_blocks: 1
