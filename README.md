@@ -33,7 +33,8 @@ Use the `run_regression_trainer_slurm.sh` to launch regression jobs using a SLUR
 To run the `trainer.py` file directly:
 ```
 cd ./regression
-python trainer.py <gp | celeba> <train | eval>
+python trainer.py <gp | celeba> <train | eval> \
+  --expid <unique_exp_id> \
   --train_seed=<seed> \
   --eval_seed=<seed> \
   --model=<anp | banp | canp | ipanp | ipcanp> \
