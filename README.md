@@ -1,4 +1,5 @@
 # Inducing Point Neural Processes
+<img src="IPNP_arch.png" alt="IPNP Architecture">
 
 This repository is used to implement the Neural Processes experiments from [Semi Parametric Inducing Point Networks](https://openreview.net/forum?id=FE99-fDrWd5).
 
