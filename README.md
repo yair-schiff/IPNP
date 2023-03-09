@@ -1,7 +1,7 @@
 # Inducing Point Neural Processes
 <img src="IPNP_arch.png" alt="IPNP Architecture">
 
-This repository is used to implement the Neural Processes experiments from [Semi Parametric Inducing Point Networks](https://openreview.net/forum?id=FE99-fDrWd5).
+This repository is used to implement the Neural Processes experiments from [Semi-Parametric Inducing Point Networks and Neural Processes](https://openreview.net/forum?id=FE99-fDrWd5).
 
 ## Acknowledgements
 This repository is largely based on the implementation of [Transformer Neural Processes](https://github.com/tung-nd/TNP-pytorch), which in turn was based on [Bootstrapping Neural Processes](https://github.com/juho-lee/bnp).
@@ -27,7 +27,7 @@ Use the `run_regression_trainer_slurm.sh` to launch regression jobs using a SLUR
   --max_num_ctx <max_num_ctx> \
   --min_num_ctx <min_num_ctx> \
   --max_num_tar 64 \
-  --min_num_tar 4 
+  --min_num_tar 4
 ```
 
 To run the `trainer.py` file directly:
@@ -49,11 +49,13 @@ python trainer.py <gp | celeba> <train | eval> \
 
 If you find this repo useful in your research, please consider citing our paper:
 ```
-@inproceedings{rastogi2023semi,
-    title={Semi Parametric Inducing Point Networks},
+@inproceedings{
+    rastogi2023semiparametric,
+    title={Semi-Parametric Inducing Point Networks and Neural Processes},
     author={Richa Rastogi and Yair Schiff and Alon Hacohen and Zhaozhi Li and Ian Lee and Yuntian Deng and Mert R. Sabuncu and Volodymyr Kuleshov},
-    booktitle={International Conference on Learning Representations},
+    booktitle={The Eleventh International Conference on Learning Representations },
     year={2023},
     url={https://openreview.net/forum?id=FE99-fDrWd5}
 }
 ```
+
